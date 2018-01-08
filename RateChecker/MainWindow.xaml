@@ -1,0 +1,19 @@
+﻿<Window x:Class="RateChecker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RateChecker"
+        mc:Ignorable="d"
+        Title="RateChecker" SizeToContent="WidthAndHeight"
+        MinWidth="150" MinHeight="100" Topmost="True"
+        ResizeMode="NoResize">
+    <Grid Name="GdLayout">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="0"/>
+        </Grid.RowDefinitions>
+        <Button Grid.Row="1" Content="計算機開閉" Name="BtCalcOc" Click="BtCalcOc_Click"/>
+    </Grid>
+</Window>
